@@ -174,14 +174,14 @@ namespace P2.peliculas
 
                 if (pelicula != null)
                 {
-                    // Si 'reseñas' no existe o es null, inicialízalo como un array vacío
+                    // Si 'reseñas' no existe o es null, se iniciará un array vacío.
                     if (pelicula.Reseñas == null)
                     {
                         var updateInit = Builders<Peliculas>.Update.Set("reseñas", new BsonArray());
                         peliculasCollection.UpdateOne(filterNombre, updateInit);
                     }
 
-                    // Ahora puedes agregar la nueva reseña
+                    // Se agrega la nueva reseña.
                     Reseña reseña = new Reseña
                     {
                         NombreUsuario = nombreUsuario,
