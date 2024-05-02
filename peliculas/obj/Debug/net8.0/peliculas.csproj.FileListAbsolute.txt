@@ -28,3 +28,4 @@
 /Users/alancruz/VS Code/P2/peliculas/obj/Debug/net8.0/peliculas.pdb
 /Users/alancruz/VS Code/P2/peliculas/obj/Debug/net8.0/peliculas.genruntimeconfig.cache
 /Users/alancruz/VS Code/P2/peliculas/obj/Debug/net8.0/ref/peliculas.dll
+/Users/alancruz/VS Code/P2/peliculas/obj/Debug/net8.0/peliculas.sourcelink.json

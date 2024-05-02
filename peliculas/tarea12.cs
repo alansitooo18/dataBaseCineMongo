@@ -77,7 +77,7 @@ namespace P2.peliculas
                 pelicula.Reseñas.ForEach(reseña => {
                     Console.WriteLine(reseña.Puntaje);
                 });
-            });
+            });     
             
             // Realiza un interacción por el usuario donde puede elegir si quiere ver todo el listado de películas, 
             // o si quiere filtrar por nombre o por género. En la lista debe poder ver la duración y la sinopsis. 
